@@ -13,3 +13,6 @@ print(set1)
 
 set1.pop()    #removing element from set1
 print(set1)
+
+set1.discard(2) #removing specific element from set1
+print(set1)
