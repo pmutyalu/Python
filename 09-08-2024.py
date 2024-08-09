@@ -10,3 +10,6 @@ print(set1)
 
 set1.remove(4)   #removing element from set1
 print(set1)
+
+set1.pop()    #removing element from set1
+print(set1)
