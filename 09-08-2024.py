@@ -7,3 +7,6 @@ print(set1)
 
 set1.add(4)    #adding new element into set1
 print(set1)
+
+set1.remove(4)   #removing element from set1
+print(set1)
