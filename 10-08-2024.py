@@ -5,3 +5,6 @@ print(3 in my_list)    #checks the given value is present in the list if present
 print(4 in my_list)
 
 print(len(my_list))    #Gives the length of list
+
+set1 = frozenset({10,20,20})    #makes set as an immuntable set
+set1.add(10)    #throws a error because set1 is immutable.
