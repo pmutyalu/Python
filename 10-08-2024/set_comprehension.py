@@ -26,7 +26,7 @@ for company in companys: #we are storing each element in the list of companys as
 print(g_company)    #print the company names starting with 'g' 
 
 
-#finding squares of a number using list comprehension
+#finding squares of a number using set comprehension
 
-num = [i**2 for i in range(1,6)]
+num = {i**2 for i in range(1,6)}
 print(num)
