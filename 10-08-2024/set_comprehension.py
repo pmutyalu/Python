@@ -23,4 +23,10 @@ g_company = set() #creating an empty set to store elements of 'g' starting compa
 for company in companys: #we are storing each element in the list of companys as a company during each iteration 
     if company[0] == 'g':    #check the element contains 'g' in it or not 
         g_company.add(company)   #if the element contains 'g' then add it to the list
-print(g_company)    #print the company names starting with 'g'
+print(g_company)    #print the company names starting with 'g' 
+
+
+#finding squares of a number using list comprehension
+
+num = [i**2 for i in range(1,6)]
+print(num)
