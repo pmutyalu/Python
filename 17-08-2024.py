@@ -9,3 +9,10 @@ To create a dictionary, you use curly braces {} and specify key-value pairs sepa
 
 sample_dict = {'Dtype': 'string','Dtype_boolean': True, 'Dtype_Integer': 850}
 print(sample_dict)
+
+
+
+'''
+Accessing Values
+You can access the values in a dictionary using square brackets [] with the key.
+'''
