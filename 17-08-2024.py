@@ -7,7 +7,7 @@ Creating Dictionaries
 To create a dictionary, you use curly braces {} and specify key-value pairs separated by colons :. Keys and values can be of any data type.
 '''
 
-sample_dict = {'Dtype': 'string','Dtype_boolean': True, 'Dtype_Integer': 850}
+sample_dict = {'Dtype_String': 'AB','Dtype_boolean': True, 'Dtype_Integer': 850}
 print(sample_dict)
 
 
@@ -16,3 +16,6 @@ print(sample_dict)
 Accessing Values
 You can access the values in a dictionary using square brackets [] with the key.
 '''
+
+first_index = sample_dict['Dtype_String']
+print(first_index)
