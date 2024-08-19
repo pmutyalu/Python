@@ -19,3 +19,9 @@ You can access the values in a dictionary using square brackets [] with the key.
 
 first_index = sample_dict['Dtype_String']
 print(first_index)
+
+
+'''
+Adding Values
+To add new key-value pairs or update existing ones in a dictionary, you can use square brackets [] and the assignment operator.
+'''
