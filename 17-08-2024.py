@@ -25,3 +25,6 @@ print(first_index)
 Adding Values
 To add new key-value pairs or update existing ones in a dictionary, you can use square brackets [] and the assignment operator.
 '''
+
+sample_dict['Addeding_val'] = "I'm added"
+print(sample_dict)
