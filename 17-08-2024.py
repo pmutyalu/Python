@@ -43,5 +43,7 @@ print('\n')
 for values in sample_dict:
     print(values)    #Print all values of the dictionary
     
+print('\n')
+
 for key,values in sample_dict.items():
     print(key,values) #Print all values of the dictionary
