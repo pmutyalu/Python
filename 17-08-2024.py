@@ -30,3 +30,5 @@ sample_dict['Addeding_val'] = "I'm added"
 print(sample_dict)
 
 print(sample_dict.values())    #Gives only values of the dictionary.
+
+print(sample_dict.keys())    #Gives only keys of the dictionary.
