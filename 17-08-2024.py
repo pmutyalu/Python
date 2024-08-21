@@ -28,3 +28,5 @@ To add new key-value pairs or update existing ones in a dictionary, you can use 
 
 sample_dict['Addeding_val'] = "I'm added"
 print(sample_dict)
+
+print(sample_dict.values())    #Gives only values of the dictionary.
