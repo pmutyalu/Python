@@ -32,3 +32,5 @@ print(sample_dict)
 print(sample_dict.values())    #Gives only values of the dictionary.
 
 print(sample_dict.keys())    #Gives only keys of the dictionary.
+
+print(sample_dict.items())    #Print all items of the dictionary.
