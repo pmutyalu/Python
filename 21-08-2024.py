@@ -9,9 +9,9 @@ small = arr[0]
 for i in arr:
     if big < i:
         big  = i
+    elif small > i:
+        small = i
+        
 print('Biggest element in the list is: ',big)
 
-for i in arr:
-    if small > i:
-        small = i
 print('Smallest element in the list is: ',small)
