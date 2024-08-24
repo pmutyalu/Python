@@ -7,7 +7,7 @@ You're going to write some code to help you cook a gorgeous lasagna from your fa
 
 EXPECTED_BAKE_TIME = 40
 
-#TODO: Remove 'pass' and complete the 'bake_time_remaining()' function below.
+# TODO: Remove 'pass' and complete the 'bake_time_remaining()' function below.
 def bake_time_remaining(elapsed_bake_time):
     """Calculate the bake time remaining.
 
@@ -20,3 +20,16 @@ def bake_time_remaining(elapsed_bake_time):
     """
 
     return EXPECTED_BAKE_TIME - elapsed_bake_time
+
+
+#TODO: Define the 'preparation_time_in_minutes()' function below.
+# You might also consider using 'PREPARATION_TIME' here, if you have it defined.
+def preparation_time_in_minutes(number_of_layers):
+    """Calculate the preparation time for the lasagna.
+
+    :param number_of_layers: int - the number of layers you want to add to the lasagna.
+    :return: int - total preparation time (in minutes).
+
+    Assumes each layer takes 'PREPARATION_TIME_PER_LAYER' minutes to prepare.
+    """
+    return number_of_layers*2
