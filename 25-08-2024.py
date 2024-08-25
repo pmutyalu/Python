@@ -34,4 +34,14 @@ def get_value_of_bills(denomination, number_of_bills):
     return denomination * number_of_bills
 get_value_of_bills(5, 128)
 
+def get_number_of_bills(amount, denomination):
+    """
+
+    :param amount: float - the total starting value.
+    :param denomination: int - the value of a single bill.
+    :return: int - number of bills that can be obtained from the amount.
+    """
+    
+    return int(amount / denomination)
+get_number_of_bills(127.5, 5)
 
