@@ -24,3 +24,14 @@ def get_change(budget, exchanging_value):
     return budget - exchanging_value
 get_change(127.5, 120)
     
+def get_value_of_bills(denomination, number_of_bills):
+    """
+
+    :param denomination: int - the value of a bill.
+    :param number_of_bills: int - total number of bills.
+    :return: int - calculated value of the bills.
+    """
+    return denomination * number_of_bills
+get_value_of_bills(5, 128)
+
+
