@@ -20,3 +20,7 @@ To raise a ValueError with a message, write the message as an argument to the ex
 raise ValueError("square must be between 1 and 64")
 
 '''
+
+
+def square(number):
+    return 2**(number-1)
