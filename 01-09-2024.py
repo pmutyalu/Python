@@ -46,3 +46,5 @@ def score(touching_power_pellet, touching_dot):
 def lose(power_pellet_active, touching_ghost):
     return not power_pellet_active and touching_ghost
 
+def win(has_eaten_all_dots, power_pellet_active, touching_ghost):
+    return has_eaten_all_dots and (not touching_ghost or power_pellet_active)
