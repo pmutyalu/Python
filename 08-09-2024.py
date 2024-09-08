@@ -10,6 +10,7 @@ try:
     
     """
     This is just printing we got an error we don't know exact name of error.
+    if we print custom error message along with the error name we should write the following. 
     """
-except Exception:
-    print('The second variable is zero, can\'t divide with zero')
+except Exception as e:
+    print('The second variable is zero, can\'t divide with zero\n',e)
