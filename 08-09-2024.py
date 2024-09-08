@@ -32,5 +32,8 @@ try:
 except IndexError:
     print('Give proper range.')
 
+except Exception as e:
+    print(e)
+    
 finally:
     print('helllo this is after exception raised')
