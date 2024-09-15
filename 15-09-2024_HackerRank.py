@@ -12,3 +12,14 @@ Sample Input:
 Sample Output:
 [0, o, 0], [o, o, 1], [0, 1, o, n, o, 0], n, 1, 11]
 '''
+x = int(input())
+y = int(input())
+z = int(input())
+n = int(input())
+result = [[i,j,k]
+          for i in range(x+1)
+          for j in range(y+1)
+          for k in range(z+1)
+          if x+y+z!=2
+]
+print(result)
