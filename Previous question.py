@@ -1,6 +1,7 @@
 '''
-here we will have two numbers n and m. we have to find divisibles and non-divisibles of n in between the range of n to m. 
+Here we will have two numbers n and m. we have to find divisibles and non-divisibles of n in between the range of n to m. 
 We have to print the sum of total divisibles and non-divisibles in given range.
+Counted how many times each loop is iterated.
 
 '''
 n = int(input('Enter num1: '))
