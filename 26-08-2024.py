@@ -21,3 +21,5 @@ print(name[0:2])
 
 print(name[:2])
 
+A = "My name is " 
+print(A+name)
