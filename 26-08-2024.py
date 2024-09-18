@@ -20,3 +20,4 @@ We can skip writing the first index number if we want to access the string from 
 print(name[0:2])
 
 print(name[:2])
+
