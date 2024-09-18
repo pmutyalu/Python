@@ -23,3 +23,6 @@ print(name[:2])
 
 A = "My name is " 
 print(A+name)
+
+str_Repetation = name * 2
+print(str_Repetation)
