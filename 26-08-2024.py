@@ -33,3 +33,4 @@ In the below esxample 0,1,2,4 indices contains normal elements. But 3rd index co
 Using slicing we can acces the sublist or we can access them useing their index positions.'''
 nested_list = [10,30,8,['-10',102,49],24]
 print(nested_list[3][::])  #accesing all elements in neste list. also we can write nested_list[3] to get same result.
+print(nested_list[3][::2])  #performing slicing on nested list. here we are accessing all elements of an list with step count of 2. this will give each elements with two index difference between each.
