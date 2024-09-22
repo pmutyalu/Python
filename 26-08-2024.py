@@ -26,3 +26,8 @@ print(A+name)
 
 str_Repetation = name * 2
 print(str_Repetation)
+
+'''
+Nested list has another list in the original list.
+In the below esxample 0,1,2,4 indices contains normal elements. But 3rd index contains another list of n elements. all the elements in the sub list will come under index of 3.
+Using slicing we can acces the sublist or we can access them useing their index positions.'''
