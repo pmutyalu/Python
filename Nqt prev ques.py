@@ -18,3 +18,19 @@ fib_cal(n)
 '''
 https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=true
 '''
+
+if __name__ == '__main__':
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
+    query_name = input()
+    def avg(query_name):
+        scores = student_marks[query_name]
+        sum_list = sum(scores)
+        len_list = len(scores)
+        average = sum_list/len_list
+        print(f"{average:.2f}")
+    avg(query_name)
