@@ -13,3 +13,8 @@ def fib_cal(n):
     print('\nThe toatl sum\'s of fib is: ',total)
 n = int(input('Enter a num to find fib : '))
 fib_cal(n)
+
+
+'''
+https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=true
+'''
